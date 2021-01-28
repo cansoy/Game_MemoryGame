@@ -5,8 +5,7 @@ let result=document.querySelector("#result");
 
 window.addEventListener("load",()=>{
     let newArrayMemory=arrayMemory.sort(()=>Math.random()-0.5);
-    let a=1;
-    for(a=1;a<9;a++){
+    for(let a=1;a<9;a++){
         let div=document.createElement("div");
         divRegion.appendChild(div);
         div.setAttribute("class","icdiv");
